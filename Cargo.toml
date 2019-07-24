@@ -1,0 +1,15 @@
+[package]
+name = "Calculator"
+version = "0.1.0"
+authors = ["lminozzo <laerciominozzo@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.gtk]
+version = "0.6.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
